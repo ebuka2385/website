@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download, ExternalLink } from "lucide-react";
+import headshot from "@/assets/headshot.png";
 
 const Hero = () => {
   const socialLinks = [
@@ -62,7 +63,7 @@ const Hero = () => {
           {/* Right: Headshot */}
           <div className="flex-shrink-0 w-96 h-96 md:w-[40rem] md:h-[40rem] lg:w-[48rem] lg:h-[48rem] rounded-full overflow-hidden border-primary shadow-xl bg-black flex items-center justify-center">
             <img
-              src="/headshot.png"
+              src={headshot}
               alt="Ebuka Onyejesi headshot"
               className="object-cover w-full h-full"
             />

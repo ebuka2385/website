@@ -1,4 +1,5 @@
 import { Mail, Phone, Github, Linkedin } from "lucide-react";
+import connect from "@/assets/connect.jpeg";
 
 const Contact = () => {
   return (
@@ -72,8 +73,8 @@ const Contact = () => {
           {/* Right: Photo */}
           <div className="flex justify-center md:justify-end">
             <img
-              src="/connect.jpeg"
-              alt="Headshot"
+              src={connect}
+              alt="Connect"
               className="rounded-2xl shadow-xl w-[450px] h-[425px] object-cover"
             />
           </div>

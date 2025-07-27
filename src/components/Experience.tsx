@@ -1,6 +1,9 @@
 import { Calendar, MapPin, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import React, { useState } from "react";
+import deere from "@/assets/deere.jpeg";
+import parker from "@/assets/parker1.jpeg";
+import concepta from "@/assets/concepta.png";
 
 const Experience = () => {
   const experiences = [
@@ -49,9 +52,9 @@ const Experience = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   // Placeholder images for each company (replace with real images if available)
   const images = [
-    "/deere.jpeg",
-    "/parker1.jpeg",
-    "/concepta.png"
+    deere,
+    parker,
+    concepta
   ];
 
   return (
