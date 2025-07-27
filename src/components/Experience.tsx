@@ -49,9 +49,9 @@ const Experience = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   // Placeholder images for each company (replace with real images if available)
   const images = [
-    "/public/deere.jpeg",
-    "/public/parker1.jpeg",
-    "/public/concepta.png"
+    "/deere.jpeg",
+    "/parker1.jpeg",
+    "/concepta.png"
   ];
 
   return (

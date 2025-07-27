@@ -72,7 +72,7 @@ const Contact = () => {
           {/* Right: Photo */}
           <div className="flex justify-center md:justify-end">
             <img
-              src="../../public/connect.jpeg"
+              src="/connect.jpeg"
               alt="Headshot"
               className="rounded-2xl shadow-xl w-[450px] h-[425px] object-cover"
             />

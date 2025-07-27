@@ -62,7 +62,7 @@ const Hero = () => {
           {/* Right: Headshot */}
           <div className="flex-shrink-0 w-96 h-96 md:w-[40rem] md:h-[40rem] lg:w-[48rem] lg:h-[48rem] rounded-full overflow-hidden border-primary shadow-xl bg-black flex items-center justify-center">
             <img
-              src="/public/headshot.png"
+              src="/headshot.png"
               alt="Ebuka Onyejesi headshot"
               className="object-cover w-full h-full"
             />
