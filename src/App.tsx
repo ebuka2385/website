@@ -9,8 +9,8 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 
-// Set the basename to match Vite's base in production, and "/" in development
-const basename = import.meta.env.MODE === "production" ? "/website/" : "/";
+// Set the basename to root for custom domain deployment
+const basename = "/";
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
