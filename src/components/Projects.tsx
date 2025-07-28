@@ -15,7 +15,7 @@ const Projects = () => {
         "Cross-platform (React Native)"
       ],
       technologies: ["React Native", "Node.js", "Fastify.js", "Postgres", "AI/ML"],
-      githubUrl: "https://github.com/ebuka2385/helthy",
+      githubUrl: "https://github.com/ethan0c/helthy_app",
       liveUrl: "#",
       status: "In Progress",
       highlight: true,
@@ -31,7 +31,7 @@ const Projects = () => {
         "Batch & parallel processing"
       ],
       technologies: ["Node.js", "React", "Tailwind CSS", "LibreOffice", "FFmpeg"],
-      githubUrl: "https://github.com/ebuka2385/refactr",
+      githubUrl: "https://github.com/TosaOdiase/Refactr",
       liveUrl: "#",
       status: "Completed",
       highlight: false,
@@ -47,7 +47,7 @@ const Projects = () => {
         "Automated SMS alerts"
       ],
       technologies: ["React Native", "Firebase", "Express.js", "Twilio"],
-      githubUrl: "https://github.com/ebuka2385/sos",
+      githubUrl: "https://github.com/Thabhelo/sos",
       liveUrl: "#",
       status: "Completed",
       highlight: false,
@@ -63,7 +63,7 @@ const Projects = () => {
         "Meal planning"
       ],
       technologies: ["React", "Node.js", "MongoDB", "Express.js"],
-      githubUrl: "https://github.com/ebuka2385/grocify",
+      githubUrl: "https://github.com/nadahameed/Grocify",
       liveUrl: "#",
       status: "Completed",
       highlight: false,

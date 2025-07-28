@@ -67,9 +67,11 @@ const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Button variant="glow" size="default" className="group px-4 py-2 text-base md:text-lg">
-              <Download className="w-5 h-5 mr-2 group-hover:animate-bounce" />
-              Resume
+            <Button variant="glow" size="default" className="group px-4 py-2 text-base md:text-lg" asChild>
+              <a href="/chiebuka-onyejesi-resume.pdf" download target="_blank" rel="noopener noreferrer">
+                <Download className="w-5 h-5 mr-2 group-hover:animate-bounce" />
+                Resume
+              </a>
             </Button>
           </div>
 
@@ -106,9 +108,11 @@ const Navigation = () => {
               </a>
             ))}
             <div className="px-6 pt-2">
-              <Button variant="glow" size="default" className="w-full group px-4 py-2 text-base">
-                <Download className="w-5 h-5 mr-2 group-hover:animate-bounce" />
-                Download Resume
+              <Button variant="glow" size="default" className="w-full group px-4 py-2 text-base" asChild>
+                <a href="/chiebuka-onyejesi-resume.pdf" download target="_blank" rel="noopener noreferrer">
+                  <Download className="w-5 h-5 mr-2 group-hover:animate-bounce" />
+                  Download Resume
+                </a>
               </Button>
             </div>
           </div>

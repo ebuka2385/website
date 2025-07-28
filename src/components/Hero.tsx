@@ -33,9 +33,10 @@ const Hero = () => {
             </div>
             {/* Call to Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center md:justify-start items-center pt-10">
-              <Button variant="glow" size="lg" className="group px-8 py-4 text-2xl">
-                <Download className="w-7 h-7 mr-3 group-hover:animate-bounce" />
-                Download Resume
+              <Button variant="glow" size="lg" className="group px-8 py-4 text-2xl" asChild>
+                <a href="/chiebuka-onyejesi-resume.pdf" target="_blank" rel="noopener noreferrer">
+                  View Resume
+                </a>
               </Button>
               <a href="#projects">
                 <Button variant="glass" size="lg" className="group px-8 py-4 text-2xl">
